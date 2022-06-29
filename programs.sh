@@ -1,5 +1,5 @@
 #install notion
-sudo apt -y  -y update
+sudo apt -y update
 sudo apt -y  install snapd
 sudo snap install notion-snap
 
@@ -37,4 +37,10 @@ sudo apt -y -get install chrome-gnome-shell
 #install git
 sudo apt -y  install git
 
+#install python 3
 sudo apt -y  install python3-pip
+
+#install unrar
+sudo apt -y install unrar
+
+
