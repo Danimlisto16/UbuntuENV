@@ -54,4 +54,7 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt update \
 && sudo apt install gh -y
 
+#wireguard alt to any VPN
+sudo apt install wireguard
+
 
