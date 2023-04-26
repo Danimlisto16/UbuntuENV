@@ -57,4 +57,20 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 #wireguard alt to any VPN
 sudo apt install wireguard
 
+#htop to control apps and performance
+sudo apt install htop
+
+# improve performance
+
+
+#to install ubuntu
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+
+#KIT FLUTTER
+sudo snap install flutter --classic
+#display path
+flutter sdk-path
+
+
+
 
