@@ -1,7 +1,9 @@
-#install notion
+#install SNAP
 sudo apt -y update
 sudo apt -y  install snapd
-sudo snap install notion-snap
+
+#install notion
+sudo snap -y install notion-snap
 
 #install chrome
 sudo apt -y  install wget
@@ -9,24 +11,16 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 #install vscode
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt -y -key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-sudo apt -y  update
-sudo apt -y  install code
+sudo snap -y install code --classic
 
 #install wps office
-wget https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10702/wps-office_11.1.0.10702.XA_amd64.deb
-sudo dpkg -i wps-office_11.1.0.9126.XA_amd64.deb
+sudo snap -y install wps-office-multilang
 
 #install spotify
-sudo apt -y  install curl
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt -y -key add - 
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt -y -get update && sudo apt -y -get install spotify-client
-
+sudo snap -y install spotify
 
 #install mailspring
-sudo snap install mailspring
+sudo snap -y install mailspring
 
 #install vlc
 sudo apt -y  install vlc 
@@ -55,21 +49,25 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt install gh -y
 
 #wireguard alt to any VPN
-sudo apt install wireguard
+sudo apt -y install wireguard
 
 #htop to control apps and performance
 sudo apt install htop
 
 # improve performance
+ sudo apt install indicator-cpufreq
 
+#------------------------ FLUTTER TOOLS
 
-#to install ubuntu
-sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+#flutter
+sudo snap -y install flutter --classic
 
-#KIT FLUTTER
-sudo snap install flutter --classic
 #display path
 flutter sdk-path
+
+
+#android studio
+sudo snap -y install android-studio --classic
 
 
 
