@@ -65,6 +65,7 @@ flutter sdk-path
 #android studio
 sudo snap -y install android-studio --classic
 
-
+#locate folders
+sudo apt install mlocate
 
 
