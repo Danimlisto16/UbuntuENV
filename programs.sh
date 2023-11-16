@@ -66,14 +66,14 @@ flutter sdk-path
 sudo snap -y install android-studio --classic
 
 #locate folders
-sudo apt install mlocate
+sudo apt -y install mlocate
 
 #nodejs
 sudo apt-get -y install nodejs
 
 #npm
-sudo apt -Y install npm
+sudo apt -y install npm
 
 #gnome extensions
-sudo apt-get install chrome-gnome-shell
+sudo apt-get -y install chrome-gnome-shell
 
