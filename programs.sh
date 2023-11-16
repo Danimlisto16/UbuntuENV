@@ -68,4 +68,10 @@ sudo snap -y install android-studio --classic
 #locate folders
 sudo apt install mlocate
 
+#nodejs
+sudo apt-get -y install nodejs
+
+#npm
+sudo apt -Y install npm
+
 
