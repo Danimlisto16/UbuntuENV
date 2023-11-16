@@ -74,4 +74,6 @@ sudo apt-get -y install nodejs
 #npm
 sudo apt -Y install npm
 
+#gnome extensions
+sudo apt-get install chrome-gnome-shell
 
