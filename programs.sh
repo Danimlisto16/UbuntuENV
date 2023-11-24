@@ -3,7 +3,7 @@ sudo apt -y update
 sudo apt -y  install snapd
 
 #install notion
-sudo snap  install notion-snap
+sudo snap install notion-snap-reborn
 
 #install chrome
 sudo apt -y  install wget
