@@ -48,10 +48,10 @@ sudo snap install git-ubuntu --classic
 sudo apt -y install wireguard
 
 #htop to control apps and performance
-sudo apt install htop
+sudo apt install -y htop
 
 # improve performance
- sudo apt install indicator-cpufreq
+ sudo apt install -y indicator-cpufreq
 
 #------------------------ FLUTTER TOOLS
 
