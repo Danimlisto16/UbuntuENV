@@ -74,6 +74,18 @@ sudo apt-get -y install nodejs
 #npm
 sudo apt -y install npm
 
-#gnome extensions
-sudo apt-get -y install chrome-gnome-shell
+#install OBS
+sudo apt-get -y install ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt-get update && sudo apt-get install obs-studio
+
+#install Zsh
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s $(which zsh)
+#CHANGE THEME
+nano ~/.zshrc #theme jonathan
+
+
 
