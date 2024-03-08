@@ -87,6 +87,18 @@ sudo ubuntu-drivers list
 #install
 sudo ubuntu-drivers install
 
+#UBUNTU GESTURES
+#add repo
+sudo add-apt-repository ppa:touchegg/stable
+#install
+sudo apt install touchegg
+
+#CHECK X11 Gestures on GNOME EXTENSIONS
+
+
+#ubuntu extension manager
+sudo apt install gnome-shell-extension-manager
+
 
 #install Zsh
 sudo apt install zsh
