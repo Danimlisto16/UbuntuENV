@@ -80,6 +80,14 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
 sudo apt-get update && sudo apt-get install obs-studio
 
+#NVIDIA GRAPHICS DRIVERS
+
+#list drivers for hardware
+sudo ubuntu-drivers list
+#install
+sudo ubuntu-drivers install
+
+
 #install Zsh
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
