@@ -25,9 +25,6 @@ sudo snap  install mailspring
 #install vlc
 sudo apt -y install vlc 
 
-#chrome gnome shell
-sudo apt  -get install chrome-gnome-shell
-
 #install git
 sudo apt -y  install git
 
@@ -94,14 +91,16 @@ sudo add-apt-repository ppa:touchegg/stable
 sudo apt install touchegg
 
 #CHECK X11 Gestures on GNOME EXTENSIONS
-
+sudo apt-get install chrome-gnome-shell
 
 #ubuntu extension manager
 sudo apt install gnome-shell-extension-manager
 
+#install curl
+sudo snap install curl
 
 #install Zsh
-sudo apt install zsh
+sudo apt -y install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 #CHANGE THEME
