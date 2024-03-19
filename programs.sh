@@ -113,3 +113,11 @@ sudo apt-get update && sudo apt-get install dart
 #install device manager
 sudo apt -y install hardinfo
 
+#install nvidia grphics
+
+#add repo
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+#autoinstall drivers
+sudo ubuntu-drivers autoinstall
+
