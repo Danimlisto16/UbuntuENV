@@ -110,3 +110,6 @@ nano ~/.zshrc #theme jonathan
 #INSTALL DART
 sudo apt-get update && sudo apt-get install dart
 
+#install device manager
+sudo apt -y install hardinfo
+
